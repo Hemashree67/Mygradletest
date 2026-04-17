@@ -30,9 +30,9 @@ dependencies {
 // Define the main class for the application
 mainClassName = 'App'
 
-task display{
-do last{
- print ("Hemashree 1BI23cs098")
- }
- }
+task display {  
+    doLast {
+        println 'Hello World'
+    }
+}
  
